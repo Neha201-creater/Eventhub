@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Achievements - Ramniranjan Jhunjhunwala College</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1a0033, #2d1b69);
+      color: #eee;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #a855f7;
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 15px rgba(168, 85, 247, 0.8);
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.3rem;
+      margin-bottom: 50px;
+      color: #c4b5fd;
+    }
+
+    .achievements-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .achievement-card {
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px;
+      border: 1px solid rgba(168, 85, 247, 0.3);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .achievement-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(168, 85, 247, 0.4);
+      border-color: rgba(168, 85, 247, 0.6);
+    }
+
+    .achievement-icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 20px;
+      display: block;
+    }
+
+    .achievement-title {
+      color: #a855f7;
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .achievement-description {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    .year-badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: linear-gradient(135deg, #8b5cf6, #a855f7);
+      color: white;
+      padding: 5px 12px;
+      border-radius: 15px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .stats-section {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      padding: 40px;
+      margin: 50px 0;
+      text-align: center;
+      border: 1px solid rgba(168, 85, 247, 0.3);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .stat-item {
+      padding: 20px;
+    }
+
+    .stat-number {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #a855f7;
+      text-shadow: 0 0 10px rgba(168, 85, 247, 0.6);
+    }
+
+    .stat-label {
+      font-size: 1.1rem;
+      color: #c4b5fd;
+      margin-top: 10px;
+    }
+
+
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      
+      .achievements-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .container {
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+<a href="index1.html" ></a>
+  <div class="container">
+    <h1>Our Achievements</h1>
+    <p class="subtitle">Six Decades of Excellence in Education</p>
+
+    <div class="achievements-grid">
+      
+      <div class="achievement-card">
+        <div class="year-badge">2024</div>
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="40" stroke="#a855f7" stroke-width="3" fill="rgba(168, 85, 247, 0.1)"/>
+          <text x="50" y="45" text-anchor="middle" fill="#ffd700" font-size="24" font-weight="bold">A</text>
+          <circle cx="50" cy="50" r="25" stroke="#ffd700" stroke-width="2" fill="none"/>
+          <path d="M30 70 Q50 80 70 70" stroke="#a855f7" stroke-width="2" fill="none"/>
+        </svg>
+        <div class="achievement-title">NAAC "A" Grade Re-Accreditation</div>
+        <div class="achievement-description">
+          Received "A" Grade multiple times (2009, 2014, 2024) for excellence in teaching, learning, research, and infrastructure.
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="year-badge">2019</div>
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <polygon points="50,15 60,35 85,35 67,50 75,75 50,60 25,75 33,50 15,35 40,35" fill="#ffd700" stroke="#a855f7" stroke-width="2"/>
+          <circle cx="50" cy="45" r="12" fill="rgba(168, 85, 247, 0.3)"/>
+          <text x="50" y="85" text-anchor="middle" fill="#a855f7" font-size="8" font-weight="bold">DBT</text>
+        </svg>
+        <div class="achievement-title">DBT Star College Status</div>
+        <div class="achievement-description">
+          Awarded by Department of Science and Technology in 2019 for excellence in science education and research infrastructure.
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="year-badge">2018</div>
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <rect x="20" y="30" width="60" height="50" rx="5" stroke="#a855f7" stroke-width="3" fill="rgba(168, 85, 247, 0.1)"/>
+          <circle cx="35" cy="45" r="6" stroke="#a855f7" stroke-width="2" fill="#ffd700"/>
+          <circle cx="50" cy="45" r="6" stroke="#a855f7" stroke-width="2" fill="#ffd700"/>
+          <circle cx="65" cy="45" r="6" stroke="#a855f7" stroke-width="2" fill="#ffd700"/>
+          <path d="M30 20 L50 10 L70 20" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
+          <text x="50" y="70" text-anchor="middle" fill="#a855f7" font-size="8" font-weight="bold">UGC</text>
+        </svg>
+        <div class="achievement-title">UGC Autonomous Status</div>
+        <div class="achievement-description">
+          Granted by UGC and University of Mumbai in 2018, enabling innovative curriculum design and flexible academic programs.
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="year-badge">2013-14</div>
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="40" r="25" stroke="#a855f7" stroke-width="3" fill="rgba(168, 85, 247, 0.1)"/>
+          <path d="M35 40 Q50 25 65 40" stroke="#ffd700" stroke-width="3" fill="none"/>
+          <circle cx="42" cy="35" r="3" fill="#ffd700"/>
+          <circle cx="58" cy="35" r="3" fill="#ffd700"/>
+          <rect x="30" y="65" width="40" height="20" rx="3" stroke="#a855f7" stroke-width="2" fill="rgba(168, 85, 247, 0.1)"/>
+          <path d="M35 75 L65 75" stroke="#a855f7" stroke-width="2"/>
+        </svg>
+        <div class="achievement-title">Jagar Janivancha Award</div>
+        <div class="achievement-description">
+          First in Mumbai Suburban in 2013 and 2014 by Maharashtra Government for exceptional safety measures for girls.
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="year-badge">2010</div>
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <rect x="15" y="25" width="70" height="50" rx="8" stroke="#a855f7" stroke-width="3" fill="rgba(168, 85, 247, 0.1)"/>
+          <circle cx="35" cy="45" r="6" fill="#ffd700"/>
+          <circle cx="50" cy="45" r="6" fill="#ffd700"/>
+          <circle cx="65" cy="45" r="6" fill="#ffd700"/>
+          <path d="M25 60 Q50 70 75 60" stroke="#a855f7" stroke-width="2" fill="none"/>
+          <text x="50" y="85" text-anchor="middle" fill="#a855f7" font-size="7" font-weight="bold">IMC</text>
+        </svg>
+        <div class="achievement-title">IMC Ramkrishna Bajaj Excellence Trophy</div>
+        <div class="achievement-description">
+          Awarded in 2010 for Performance Excellence in Education, recognizing outstanding quality management and continuous improvement.
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="year-badge">2008</div>
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <polygon points="50,10 60,35 85,35 67,52 75,77 50,62 25,77 33,52 15,35 40,35" fill="#ffd700" stroke="#a855f7" stroke-width="2"/>
+          <circle cx="50" cy="45" r="15" fill="rgba(168, 85, 247, 0.3)"/>
+          <text x="50" y="85" text-anchor="middle" fill="#a855f7" font-size="6" font-weight="bold">MUMBAI UNIV</text>
+        </svg>
+        <div class="achievement-title">University of Mumbai Best College Award</div>
+        <div class="achievement-description">
+          Honored in 2008 by University of Mumbai for outstanding performance in academics, research, and student development.
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <rect x="20" y="20" width="60" height="60" rx="10" stroke="#a855f7" stroke-width="3" fill="rgba(168, 85, 247, 0.1)"/>
+          <circle cx="40" cy="40" r="8" fill="#ffd700"/>
+          <circle cx="60" cy="40" r="8" fill="#ffd700"/>
+          <circle cx="40" cy="60" r="8" fill="#ffd700"/>
+          <text x="50" y="85" text-anchor="middle" fill="#a855f7" font-size="8" font-weight="bold">ISO</text>
+        </svg>
+        <div class="achievement-title">ISO Certifications</div>
+        <div class="achievement-description">
+          Achieved ISO 9001:2015, ISO 14001:2015, and ISO 27001:2013 certifications for quality management, environmental management, and information security.
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <svg class="achievement-icon" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="35" stroke="#22c55e" stroke-width="3" fill="rgba(34, 197, 94, 0.1)"/>
+          <path d="M35 50 L45 60 L65 40" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="30" cy="30" r="8" fill="#ffd700"/>
+          <circle cx="70" cy="30" r="8" fill="#ffd700"/>
+          <text x="50" y="85" text-anchor="middle" fill="#22c55e" font-size="7" font-weight="bold">GREEN AUDIT</text>
+        </svg>
+        <div class="achievement-title">Green & Energy Audits</div>
+        <div class="achievement-description">
+          Successfully completed Green and Energy Audits by Roshini Udyavar & Associates, demonstrating commitment to environmental sustainability.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="stats-section">
+      <h2 style="color: #a855f7; font-size: 2.2rem; margin-bottom: 10px;">Legacy of Excellence</h2>
+      <p style="font-size: 1.2rem; color: #c4b5fd; margin-bottom: 30px;">Building futures since 1963</p>
+      
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-target="61">0+</div>
+          <div class="stat-label">Years of Excellence</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="8">0</div>
+          <div class="stat-label">Major Awards</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="1963">0</div>
+          <div class="stat-label">Established</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="100">0%</div>
+          <div class="stat-label">Commitment to Quality</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function animateNumbers() {
+      const statNumbers = document.querySelectorAll('.stat-number');
+      
+      statNumbers.forEach(stat => {
+        const target = parseInt(stat.getAttribute('data-target'));
+        const isPercentage = stat.textContent.includes('%');
+        const isPlus = stat.textContent.includes('+');
+        let current = 0;
+        
+        // Different animation speeds for different numbers
+        let increment;
+        let duration;
+        
+        if (target === 1963) {
+          increment = 15; // Faster for year
+          duration = 20;
+        } else if (target === 100) {
+          increment = 2; // Medium for percentage
+          duration = 30;
+        } else if (target === 60) {
+          increment = 1; // Slower for years
+          duration = 50;
+        } else {
+          increment = 1; // Slowest for small numbers
+          duration = 100;
+        }
+        
+        const timer = setInterval(() => {
+          current += increment;
+          
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+          }
+          
+          // Update display with appropriate suffix
+          if (isPercentage) {
+            stat.textContent = current + '%';
+          } else if (isPlus) {
+            stat.textContent = current + '+';
+          } else {
+            stat.textContent = current;
+          }
+        }, duration);
+      });
+    }
+
+    // Start animation when page loads
+    window.addEventListener('load', () => {
+      setTimeout(animateNumbers, 500); // Small delay for better effect
+    });
+
+    // Restart animation when stats section comes into view
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Reset numbers to 0
+          const statNumbers = entry.target.querySelectorAll('.stat-number');
+          statNumbers.forEach(stat => {
+            const isPercentage = stat.textContent.includes('%');
+            const isPlus = stat.textContent.includes('+');
+            
+            if (isPercentage) {
+              stat.textContent = '0%';
+            } else if (isPlus) {
+              stat.textContent = '0+';
+            } else {
+              stat.textContent = '0';
+            }
+          });
+          
+          // Start animation after a brief delay
+          setTimeout(animateNumbers, 200);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    // Observe the stats section
+    window.addEventListener('load', () => {
+      const statsSection = document.querySelector('.stats-section');
+      observer.observe(statsSection);
+    });
+  </script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97b4f85d85d6a6dc',t:'MTc1NzIzNTE0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
